@@ -1,0 +1,44 @@
+/* Contact page */
+main {
+    margin-top: 0 !important;
+}
+
+.container {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#social-links {
+    display: flex;
+    margin: 2rem auto;
+}
+
+#social-links img {
+    height: 50px;
+    justify-content: center;
+    margin: auto 2rem;
+    width: 50px;
+}
+
+#social-links a:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#form-container {
+    margin: 1rem auto;
+}
+
+input {
+    display: block;
+}
+
+#submit {
+    background-color: black;
+    border-radius: 3rem;
+    color: white;
+    margin: 1rem auto;
+}
+
+#submit:hover {
+    background-color: #20AEE5;
+}
